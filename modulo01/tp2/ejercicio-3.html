@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(prompt('Ingresar un numero entero'));
+        var nums = [];
+        var num1 = num;
+
+
+        for (let i = 1; i < num; i++) {
+            nums.push((num-i));
+        }
+        for (let i = 0; i < nums.length; i++) {
+            num = num*nums[i];
+        }
+        document.write('El factorial de '+num1+' es: '+num);
+    </script>
+</body>
+</html>

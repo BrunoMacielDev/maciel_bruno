@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <script>
+        var txt1 = prompt('ingresar texto')
+        var texto = txt1.toLowerCase();
+        var vocales = ['a','e','i','o','u'];
+        var txt = [];
+        
+        for (let i = 0; i < texto.length; i++) {
+            txt.push(texto.charAt(i));
+        }
+        for (let i = 0; i < txt.length; i++) {
+            for (let j = 0; j < vocales.length; j++) {
+                if (txt[i]==vocales[j]) {
+                    document.write('la primer vocal del string "'+txt1+'" es: '+vocales[j])
+                    var txt = [];
+                }
+            }
+        }
+    </script>
+</body>
+</html>
