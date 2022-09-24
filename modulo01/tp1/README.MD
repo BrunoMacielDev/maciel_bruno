@@ -2,13 +2,13 @@
 ### MÓDULO 1 - Nivelación y fundamentos de la Programación
 
 #### Ejercicio 1:
-a) Abrir el editor HTML.
-b) Archivo Nuevo.
-c) Copiar el código que empieza por <!DOCTYPE html> siguiente.
-d) Menú... Archivo... Guardar como: Ejercicio1.html
-e) Abrir el archivo Ejercicio1.html en el navegador
-f) Después del primer mensaje, se debe mostrar otro mensaje que diga "Soy el primer script"
-g) Agregar comentarios que expliquen el funcionamiento del código
+1. Abrir el editor HTML.
+2. Archivo Nuevo.
+3. Copiar el código que empieza por <!DOCTYPE html> siguiente.
+4. Menú... Archivo... Guardar como: Ejercicio1.html
+5. Abrir el archivo Ejercicio1.html en el navegador
+6. Después del primer mensaje, se debe mostrar otro mensaje que diga "Soy el primer script"
+7. Agregar comentarios que expliquen el funcionamiento del código
 
 ```
 <!DOCTYPE html>
@@ -25,7 +25,8 @@ g) Agregar comentarios que expliquen el funcionamiento del código
 ```
 #### Ejercicio 2:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: “Ejercicio2.html”. Ejecuta el programa en el navegador
-_____________________________________________
+
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -41,10 +42,11 @@ _____________________________________________
   </script>
 </body>
 </html>
-
+```
 #### Ejercicio 3:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: “Ejercicio3.html”. Ejecuta el programa en el navegador.
-_____________________________________________
+
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -58,10 +60,11 @@ _____________________________________________
   </script>
 </body>
 </html>
+```
 
 #### Ejercicio 4:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: “Ejercicio4.html”. Ejecuta el programa en el navegador
-_________________________________________________
+```
 <html>
 <body>
   <script type="text/javascript">
@@ -76,11 +79,12 @@ _________________________________________________
   <p>El signo '+' sirve para concatenar cadenas de texto</p>
 </body>
 </html>
+```
 #### Ejercicio 5:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: Ejercicio5.html’. Ejecuta el programa en el navegador.
 Obs: El siguiente código tiene un error, para corregirlo se debe depurar el código en el navegador.
-Depurar con chrome: https://developer.chrome.com/docs/devtools/javascript/
-_________________________________________________
+_Depurar con chrome: https://developer.chrome.com/docs/devtools/javascript/_
+```
 <!DOCTYPE html>
 <html><body>
   <script type="text/javascript">
@@ -94,12 +98,12 @@ _________________________________________________
   <p>Los puntos de interrupción son fundamentales para programar</p>
 </body>
 </html>
-
+```
 #### Ejercicio 6:
 Crear un array llamado “dias” y que almacene el nombre de los siete días de la semana. Mostrar por pantalla los siete nombres utilizando la función console.log().
 #### Ejercicio 7:
 Ejecutar el programa en el navegador. Guardarlo con el nombre: Ejercicio7.html’ Pasar valores por teclado. Anotar con comentarios que hace el programa.
-_________________________________________________
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -112,10 +116,10 @@ _________________________________________________
   </script>
 </body>
 </html>
-
+```
 #### Ejercicio 8:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: 'Ejercicio8.html’. Ejecuta el programa en el navegador.
-________________________________________________
+```
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"></head>
@@ -134,7 +138,7 @@ ________________________________________________
   <p>Para sumar, las variables deben ser numéricas.</p>
 </body>
 </html>
-
+```
 
 #### Ejercicio 9:
 Crear un archivo: Ejercicio9.html’. Declarar un array llamado “vocales” con las 5 letras.
