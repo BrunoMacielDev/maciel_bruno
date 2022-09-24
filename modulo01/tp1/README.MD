@@ -9,7 +9,8 @@ d) Menú... Archivo... Guardar como: Ejercicio1.html
 e) Abrir el archivo Ejercicio1.html en el navegador
 f) Después del primer mensaje, se debe mostrar otro mensaje que diga "Soy el primer script"
 g) Agregar comentarios que expliquen el funcionamiento del código
-______________________________________________
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +22,7 @@ ______________________________________________
   </script>
 </body>
 </html>
-
+```
 #### Ejercicio 2:
 Copiar el siguiente código dentro de un archivo, luego guardarlo con el nombre: “Ejercicio2.html”. Ejecuta el programa en el navegador
 _____________________________________________
