@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>
+        var texto = prompt('Ingresar texto');
+        mayus(texto);
+
+        function mayus(txt) {
+            if ( ( txt.toLowerCase() ) == txt ) {
+                document.write('El texto ingresado ('+txt+') esta formado solo por minusculas')
+            }
+
+            if ( ( txt.toUpperCase() ) == txt ) {
+                document.write('El texto ingresado ('+txt+') esta formado solo por mayusculas')
+            }
+            
+            if ( (txt.toLowerCase()) != txt && txt.toUpperCase() != txt) {
+                document.write('El texto ingresado ('+txt+') esta formado por una combinacion de mayusculas y minusculas')
+            }
+        }
+    </script>
+</body>
+</html>

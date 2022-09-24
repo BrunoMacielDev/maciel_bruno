@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <script>
+        var txt = prompt('Ingresar un texto');
+        var texto = txt.toLowerCase();
+        var array = []
+
+        for (let i = 0; i < texto.length; i++) {
+            array.push(texto.charAt(i));
+        }
+        array.reverse()
+
+        for (let i = 0; i < array.length; i++) {
+            document.write(array[i])   
+        }
+    </script>
+</body>
+</html>

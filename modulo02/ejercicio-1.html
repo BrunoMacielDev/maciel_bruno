@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 1 </title>
+</head>
+<body>
+    <script>
+        var verdadero, char, maxString, suma, resta, mult, div;
+        var valores = [verdadero,false,2,'hola','mundo',3,char];
+        var strings = [];
+        var numbers = [];
+        var max = 0;
+
+        valores.forEach(mayorQue);
+    
+        for (let i = 0; i < valores.length; i++) {
+            if(typeof(valores[i])=='number'){
+                numbers.push(valores[i]);
+            }
+            if(typeof(valores[i]) == 'string'){
+                strings.push(valores[i]);
+            } 
+        }
+
+        strings.sort(compare);
+
+        for (let i = 1; i < numbers.length; i++) {
+            suma = numbers[i] + numbers[i-1];
+            resta = numbers[i] - numbers[i-1];
+            mult = numbers[i] * numbers[i-1];
+            div = numbers[i] / numbers[i-1];
+        }
+
+        document.write('El elemento del array con mas letras es: '+ maxString+'<br>');
+        document.write('Los elementos de texto de menor a mayor cantidad de letras serian: '+strings+'<br>');
+        document.write('La suma de los elementos numericos es: '+suma+'<br>');
+        document.write('La resta de los elementos numericos es: '+resta+'<br>');
+        document.write('La multiplicacion de los elementos numericos es: '+mult+'<br>');
+        document.write('La divison de los elementos numericos es: '+div+'<br>');
+
+
+        function compare(a,b){
+            if(a.length == b.length){
+                return 0;
+            }
+            if(a.length < b.length){
+                return -1;
+            }
+            return 1;
+        }
+
+        function mayorQue(val) {
+            if( (typeof(val) == 'string') && (val.length > max) ){
+                max = val.length;
+                maxString = val;
+            }
+        }
+    </script>
+</body>
+</html>
